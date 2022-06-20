@@ -32,12 +32,12 @@ body {
 }
 
 .img{
-    padding: 5px;
-    border: 5px solid black;
+    padding: 10px;
+    border-bottom: 5px solid black;
     display: block;
-    justify-content: space-around;
+    justify-content: center;
     margin: 100px;
-    align-items: stretch;
+  
 }
 
 article{
@@ -102,10 +102,10 @@ button {
 
 footer{
     font-size: large;
-    border-top: 10px solid black;
+    border-top: 5px solid black;
     text-align: center;
     padding: 40px;
     margin: 41px;
-    width: 100%;
+    width: 90%;
     background-color: grey;
 }
