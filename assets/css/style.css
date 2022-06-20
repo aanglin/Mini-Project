@@ -1,1 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body { 
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+   
+ }
+ 
+ body{
+     background-color: yellow;
+ }
+
+  header{
+      position: fixed;
+    width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  border-bottom: 10px solid black;
+  border-top: 5px solid black;
+  justify-content: space-evenly;
+  background-color: aqua;
+  padding-bottom: 20px;
+  padding-top: 5px;
+   
+}
+
+.img{
+    padding: 5px;
+    border: 5px solid black;
+    display: block;
+    justify-content: space-around;
+    margin: 100px;
+    align-items: stretch;
+}
+
+article{
+    text-align: center;
+    font-size: xx-large;
+    padding: 30px;
+}
+.Vac{
+    text-align: center;
+    padding: 90px;
+    
+}
+/* Code copied from main folder of Mini Project */
+form {
+    
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid blue;
+    border-radius: 20px;
+    
+  }
+
+
+label {
+    display: inline-block;
+    width: 100px;
+  }
+
+.list{
+    list-style: none;
+}
+
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4F4846;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #4F4846;
+  color: #FDF8F5;
+}
+ 
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+  
+}
+
+footer{
+    font-size: large;
+    border-top: 10px solid black;
+    text-align: center;
+    padding: 40px;
+    margin: 41px;
+    width: 100%;
+    background-color: grey;
+}
